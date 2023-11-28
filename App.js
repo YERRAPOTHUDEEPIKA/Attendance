@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const defaultLatitude = 13.079353; // Replace with your default latitude
 const defaultLongitude = 80.2535194; // Replace with your default longitude
-const maxDistance = 40; // Maximum allowed distance in meters
+const maxDistance = 10; // Maximum allowed distance in meters
 
 const LocationComponent = () => {
   const [location, setLocation] = useState(null);
